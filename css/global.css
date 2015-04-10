@@ -1,5 +1,5 @@
 .bottomDock {
-  background: #ccc;
+  background: #ddd;
   overflow: visible;
 }
 
@@ -108,4 +108,52 @@ button {
 .tertiary:active {
   text-decoration: none;
   color: #00558e;
+}
+
+.banner {
+  height: 50px;
+  background: #ddd;
+  line-height: 16px;
+  padding: 17px 20px;
+  border: 1px solid #ccc;
+}
+
+.touch .banner {
+  margin-top: 10px;
+}
+
+.banner h1 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+  color: #777;
+  display: inline-block;
+}
+
+.closeButton {
+  float: right;
+  margin: 0;
+  padding: 0;
+  height: 16px;
+  width: 16px;
+  background-image: url(../images/hi/close-small.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 16px 16px;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.infoArea {
+  line-height: 34px;
+  font-size: 14px;
+  color: #666;
+}
+
+.infoImage {
+  width: 24px;
+  height: 24px;
+  margin: 5px 10px;
+  float: left;
 }
