@@ -212,3 +212,43 @@ button {
 .moveButtonsBar .moveBottom:disabled {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAC30lEQVRoQ+2ZTWgTURCA32yiBPRQD2JAhB495ugxxx4DGlklyNJKSUMIoZZSSw8FpZZSagghBrXlIUEXo5Bjjzl6zLHHgggRD+agEDTZcbelkITX5L3JS0xKct2ZefPNX2bfApvwH0y4/0wLwMaTxYiBLKQSDEQ8evbyja2iI5LVA7D8eJPiyPO9tyS99rOmAF40NtLEDGTGJAPrRICtsQFIzZNqeSt7QNLT3gPrUwDKDDvV0TKF1pK0EtrOjUkJrSUtUi1v5zhJT3sPTDzAaoKWgZ38mGTgAgA8ItXyTv4dSU97D6zEaQC7hSmAnv+BlXiMVAq7hSJJT3sJLS/SAPZeDwmA6hB9IZDTFAELV4mJB0hb5iz4wQQGAbnYDFcKGTawiXaG28fdJ527zFlWOHDt0k3LffkODte93tYBoPbz7zfOeaUhkuy7jaYWHswZAHf+B4SD+CW7/+Gw19l9ATzltBUNoeGfG1VJeSUDTvMww0vVfoGTAvCMJKxo0Gf43b7AmX5GB3mODOotp2nneakmY0cawDPm9cUVdiPiM+C2jHFVmZaDR7/Z9/J59U7qAZFS0jLDBmNhVQd7yTuMVXLcrqjaVMpAu/G4O2r9DE33rXTAUYuNJgO7IBiRMjBkgNOSisxcZZddCEYdtbVf7I/Nebku46y2Euo2tBS77/aF2uVuy2HVV8WPZarjZ3oDZaD98MTDaIj5ISLlUBPL+ff9R6SMLW0AJ6M2Gg1iAE0AJhy1iKwODbDzJbkROXKAk74IhwOBW9dNA3G23QEH4Ljx9YfNK+KVQMbZofWAyHA8ds8bs2ejtlIoflIekTJQWktI5kDdMlMA3RFVtTfNgGrEdMtfzAw8TS94K7PSd1/dkRXZc9ft6ovMfsf6IcwA9ZPRKCC6v6sJAVYTtLvOUQB0XwhP1L2QF6Duyy0hQGre3BxFNClnZA/sDt+EAEuxu24T+8awiVvuO8Tnjib+B3sv9jEBDO/EAAAAAElFTkSuQmCC)
 }
+
+.tableContainer {
+  margin-top: 10px;
+}
+
+.selTable {
+  width: 100%;
+}
+
+.selTable th {
+  background: #bbb;
+  color: white;
+  text-align: left;
+}
+
+.selTable tr {
+  height: 31px;
+}
+
+.selTable th, .selTable td {
+  height: 30px;
+  border-top: 1px solid white;
+  padding-left: 10px;
+}
+
+.touch .selTable tr {
+  height: 41px;
+}
+
+.touch .selTable th, .touch .selTable td {
+  height: 40px;
+}
+
+.selTable td {
+  cursor: pointer;
+}
+
+.selTable tr.selected td {
+  background: #eee;
+}
