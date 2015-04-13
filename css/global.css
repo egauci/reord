@@ -158,6 +158,11 @@ button {
   float: left;
 }
 
+.countSelected {
+  float: right;
+  margin-right: 10px;
+}
+
 .moveButtonsBar {
   padding: 10px 0 0 10px;
 }
