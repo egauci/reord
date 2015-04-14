@@ -252,3 +252,13 @@ button {
 .selTable tr.selected td {
   background: #eee;
 }
+
+.selTable tr td {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.selTable tr.invis td {
+  opacity: 0;
+  transition: opacity 0s;
+}
